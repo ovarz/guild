@@ -41,6 +41,13 @@ header{box-shadow:var(--shadow-default);}
 
 .live-chat iframe{border-radius:var(--rounded-normal); overflow:hidden;}
 
+.ohc-line:after{background-color:var(--color-default);}
+.ohc-circle{background-color:var(--color-background); border-color:var(--color-default); border-radius:50%;}
+.ohc-right{display:flex; align-items:center;}
+.ohc-right .home-image{border-radius:var(--rounded-normal); overflow:hidden;}
+.ohc-destination{color:var(--color-link-secondary);}
+.ohc-destination .ohc-circle{border-color:var(--color-link-secondary);}
+
 footer{padding:var(--section-space-medium); border-top:1px dashed var(--color-border);}
 
 
@@ -48,4 +55,9 @@ footer{padding:var(--section-space-medium); border-top:1px dashed var(--color-bo
 @media screen and (min-width:0px) and (max-width:1023px){
   .menu-bottom{box-shadow:var(--shadow-default);}
   .menu-bottom .sticky-link{border-color:var(--color-border);}
+}
+
+@supports(-webkit-backdrop-filter:none) or (backdrop-filter:none){
+  .bg-transparent{-webkit-backdrop-filter:blur(0px) !important; backdrop-filter:blur(0px) !important;}
+  header, .menu-bottom{-webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px); background-color:rgba(31,10,82,0.5);}
 }

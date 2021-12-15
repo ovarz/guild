@@ -59,7 +59,7 @@
 </div>
 <script>
 $(window).on('load',function(){
-  $('.cover').append("<video autoplay=\"\" loop muted><source src=\"img/cover.mp4\" type=\"video/mp4\"></video>");
+  $('.cover').append("<video autoplay=\"\" loop muted><source src=\"img/trailer.mp4\" type=\"video/mp4\"></video>");
 });
 
 $(window).scroll(function(){

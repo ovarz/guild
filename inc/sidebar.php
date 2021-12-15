@@ -34,12 +34,51 @@
       
       
     
+      <section class="base-container polling">
+        <div class="section-title">
+          <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
+          <div class="section-title-label">Polling</div>
+        </div>
+      </section>
+      
+      
+    
       <section class="base-container our-home">
         <div class="section-title">
           <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
           <div class="section-title-label">Our Home</div>
         </div>
-        
+        <div class="our-home-container">
+          <ul class="ohc-row">
+            <?php require ($_SERVER['GUILD'].'module/route-map.php')?>
+            <li class="ohc-right">
+              <span>Diabolos</span>
+            </li>
+          </ul>
+          <ul class="ohc-row">
+            <?php require ($_SERVER['GUILD'].'module/route-map.php')?>
+            <li class="ohc-right">
+              <span>Shirogane</span>
+            </li>
+          </ul>
+          <ul class="ohc-row">
+            <?php require ($_SERVER['GUILD'].'module/route-map.php')?>
+            <li class="ohc-right">
+              <span>Ward 19</span>
+            </li>
+          </ul>
+          <ul class="ohc-row ohc-destination">
+            <?php require ($_SERVER['GUILD'].'module/route-map.php')?>
+            <li class="ohc-right">
+              <span>
+                <b>Plot 30</b>
+                <div class="home-image flex_ori thumb-loading">
+                  <img alt="img_title" class="lazyload" data-original="img/our-home.jpg" />
+                </div>
+              </span>
+            </li>
+          </ul>
+        </div>
       </section>
 
     </div>
