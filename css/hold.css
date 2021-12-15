@@ -43,11 +43,13 @@ header{box-shadow:var(--shadow-default);}
 
 .ohc-line:after{background-color:var(--color-default);}
 .ohc-circle{background-color:var(--color-background); border-color:var(--color-default); border-radius:50%;}
+.ohc-arrow{position:absolute; z-index:3; bottom:0; left:0; width:100%; fill:var(--color-default);}
 .ohc-right{display:flex; align-items:center;}
 .ohc-right b{padding-top:2px; display:block;}
 .ohc-right .home-image{border-radius:var(--rounded-normal); overflow:hidden;}
 .ohc-destination{color:var(--color-link-secondary);}
 .ohc-destination .ohc-circle{border-color:var(--color-link-secondary);}
+.ohc-destination .ohc-arrow{display:none;}
 
 footer{padding:var(--section-space-medium); border-top:1px dashed var(--color-border);}
 
