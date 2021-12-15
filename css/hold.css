@@ -5,7 +5,7 @@
   --color-link-primary:#FFFFFF; 
   --color-link-secondary:#F43B86;
   --color-link-tertiary:#FFD291;
-  --color-border:rgba(255,255,255,0.2);
+  --color-border:rgba(255,255,255,0.25);
 }
 
 a, .btn, #btt, .svgicon-more{transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s;}
@@ -35,7 +35,7 @@ background-color:var(--color-link-secondary); fill:var(--color-background); bord
 
 header{box-shadow:var(--shadow-default);}
 
-.officer-box{background-color:hsl(var(--color-sticky) / 100%); border-color:var(--color-border); border-radius:var(--rounded-normal); overflow:hidden;}
+.officer-box{background-color:hsl(var(--color-sticky) / 100%); border-color:rgba(255,255,255,0.1); border-radius:var(--rounded-normal); overflow:hidden;}
 .officer-box:hover{--color-sticky:0deg 0% 0%;}
 .officer-birth, .officer-desc{color:var(--color-default);}
 .officer-card .officer-thumb:after{background:linear-gradient(to bottom, hsl(var(--color-sticky) / 0%) 50%, hsl(var(--color-sticky) / 100%) 100%);}
