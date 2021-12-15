@@ -20,7 +20,7 @@
   .cover-content{position:absolute; z-index:4; top:0; left:0; width:100%; height:100%; padding:var(--section-space-big);}
   .cover-content > span{max-width:var(--site-container);}
   .cover-title, .cover-subtitle{text-align:center; text-shadow:2px 2px 10px #000000;}
-  .cover-title{font-weight:bold; font-size:6vw; line-height:120%; text-transform:uppercase;}
+  .cover-title{font-weight:bold; font-size:6vw; line-height:120%; text-transform:uppercase; color:var(--color-link-primary);}
   .cover-subtitle{font-size:2vw; line-height:140%; color:var(--color-link-tertiary);}
   .cover-button{margin-top:var(--section-space-medium);}
   .cover-button > a{display:block; line-height:normal;}
