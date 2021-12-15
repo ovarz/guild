@@ -44,6 +44,7 @@ header{box-shadow:var(--shadow-default);}
 .ohc-line:after{background-color:var(--color-default);}
 .ohc-circle{background-color:var(--color-background); border-color:var(--color-default); border-radius:50%;}
 .ohc-right{display:flex; align-items:center;}
+.ohc-right b{padding-top:2px; display:block;}
 .ohc-right .home-image{border-radius:var(--rounded-normal); overflow:hidden;}
 .ohc-destination{color:var(--color-link-secondary);}
 .ohc-destination .ohc-circle{border-color:var(--color-link-secondary);}
