@@ -29,7 +29,7 @@
           <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
           <div class="section-title-label">Live Chat</div>
         </div>
-        <iframe style="width:100%; height:480px; margin-top:0px;" width="300" height="480" class="lazyload" data-original="https://www.youtube.com/live_chat?v=FaXe7LL5VWU&amp;embed_domain=www.ov4rz.com&dark_theme=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <iframe title="Live Chat" style="width:100%; height:480px; margin-top:0px;" width="300" height="480" class="lazyload" data-original="https://www.youtube.com/live_chat?v=FaXe7LL5VWU&amp;embed_domain=www.ov4rz.com&dark_theme=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
       </section>
       
       
