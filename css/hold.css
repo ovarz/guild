@@ -1,0 +1,44 @@
+:root{
+  --rounded-normal:16px;
+  --shadow-default:0 2px 10px rgb(0 0 0 / 25%);
+  --shadow-inset:inset -2px -2px 4px rgba(255,255,255,.2), inset 2px 2px 12px rgba(0,0,0,.2);
+  --color-link-primary:#FFFFFF; 
+  --color-link-secondary:#E36685;
+  --color-link-tertiary:#FFD291;
+  --color-border:rgba(255,255,255,0.1);
+}
+
+a, .btn, #btt, .article-list-thumb-frame{transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s;}
+a, .btn, #btt{cursor:pointer}
+a{color:var(--color-link-primary); fill:var(--color-link-primary);}
+a:hover{color:var(--color-link-tertiary); fill:var(--color-link-tertiary);}
+a:focus{opacity:0.6;}
+.btn, a.btn{border-radius:var(--rounded-normal); background-color:var(--color-link-secondary);}
+.btn:hover, a.btn:hover{background-color:var(--color-link-tertiary);}
+#btt{position:fixed; bottom:calc((var(--body-padding) * 2) + var(--section-space-medium) + 5px); right:var(--section-space-medium); 
+z-index:calc(var(--max-zindex) - 400); font-size:18px; width:36px; height:36px; 
+background-color:var(--color-link-secondary); fill:var(--color-background); border-radius:50%;}
+#btt:hover, #btt:focus{background-color:var(--color-link-tertiary);}
+.header-logo:hover{opacity:0.5;}
+.flex_ori > img{opacity:0; transition:all 300ms;}
+.flex_ori > img.lazyloaded{opacity:1;}
+.muat-lainnya{margin-top:var(--section-space-medium);}
+.share-list-fb{fill:#4867aa;}
+.share-list-tw{fill:#00acec;}
+.share-list-wa{fill:#2bb240;}
+.share-list-li{fill:#41c106;}
+.sticky-curr{color:var(--color-link-secondary) !important; fill:var(--color-link-secondary) !important;}
+.thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:var(--color-link-tertiary);}
+@-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
+@keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
+
+header{box-shadow:var(--shadow-default);}
+
+footer{padding:var(--section-space-medium); border-top:1px dashed var(--color-border);}
+
+
+
+@media screen and (min-width:0px) and (max-width:1023px){
+  .menu-bottom{box-shadow:var(--shadow-default);}
+  .menu-bottom .sticky-link{border-color:var(--color-border);}
+}
