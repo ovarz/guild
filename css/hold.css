@@ -63,7 +63,6 @@ footer{padding:var(--section-space-medium); border-top:1px dashed var(--color-bo
 
 @media screen and (min-width:0px) and (max-width:1023px){
   .menu-bottom{box-shadow:var(--shadow-default);}
-  .menu-bottom .sticky-link{border-color:var(--color-border);}
 }
 
 @supports(-webkit-backdrop-filter:none) or (backdrop-filter:none){

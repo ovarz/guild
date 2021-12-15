@@ -93,8 +93,7 @@ textarea.map-field{min-height:160px;}
   
   .menu-bottom{--icon-size:16px; position:fixed; bottom:0; left:0; width:100%; z-index:calc(var(--max-zindex) - 200); 
   display:flex; background-color:hsl(var(--color-sticky) / 100%); border-top:1px solid rgba(255,255,255,0.1);}
-  .menu-bottom .sticky-link{width:100%; border-left:1px solid;}
-  .menu-bottom .sticky-link:first-child{border-left:0;}
+  .menu-bottom .sticky-link{width:100%;}
   .bottom-icon{font-size:var(--icon-size); text-align:center; font-weight:normal; height:var(--icon-size);}
   .bottom-icon .svgicon{height:var(--icon-size);}
   .bottom-name{font-size:10px; line-height:10px; text-align:center; margin-top:var(--section-space-small); font-weight:600;}

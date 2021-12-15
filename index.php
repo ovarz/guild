@@ -67,6 +67,17 @@
             
             
           </section>
+        
+        
+        
+          <section class="base-container news">
+            <div class="section-title">
+              <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
+              <div class="section-title-label">News</div>
+            </div>
+            
+            
+          </section>
           
         </div>
       </div>
