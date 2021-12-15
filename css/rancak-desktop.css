@@ -9,3 +9,9 @@ header .header-share{padding-right:0;}
 .main-container{min-height:calc(100vh - var(--body-padding) - var(--section-space-big) - var(--section-space-big));}
 .main-container-split{grid-template-columns:1fr 300px;}
 .column-small-container{position:-webkit-sticky; position:sticky; top:calc(var(--body-padding) + var(--section-space-medium)); padding-bottom:0.1px;}
+
+@media screen and (min-width:1280px){
+  :root{
+    --site-container:1200px;
+  }
+}

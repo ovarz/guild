@@ -11,12 +11,13 @@
   --max-zindex:2147483648;
   
   --color-background:#11052C; 
-  --color-sticky:#1F0A52; 
-  --color-default:#E0E0E0; 
+  --color-sticky:258deg 78% 18%; 
+  --color-default:#BDBDBD; 
 }
 
 body, html{font-family:'Montserrat', sans-serif; font-size:14px; font-weight:400; letter-spacing:0.4px; font-feature-settings:'lnum' 1; color:var(--color-default);
 -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
+html{scroll-behavior:smooth;}
 body{overflow-x:hidden; position:relative; background-color:var(--color-background); padding-top:var(--body-padding);}
 a{font-weight:600;}
 .btn, a.btn{padding:16px; font-weight:bold; -webkit-appearance:none; text-align:center; text-transform:uppercase;}
@@ -31,11 +32,14 @@ a{font-weight:600;}
 .section-title, .section-title-label{display:flex; align-items:center;}
 .section-title{margin-bottom:var(--section-space-medium); stroke-width:4; stroke-linecap:round; stroke-linejoin:round;}
 .section-title-label{margin-left:var(--section-space-small); font-weight:bold; font-size:24px;}
+.see-more{display:flex; justify-content:flex-end; margin-top:var(--section-space-medium);}
+.see-more-link{display:flex; align-items:center;}
+.svgicon-see-more{margin-left:var(--section-space-small);}
 .sticky-link{height:var(--body-padding);}
 .sticky-link .svgicon-share{height:18px;}
 
 
-header{position:fixed; top:0; left:0; width:100%; z-index:calc(var(--max-zindex) - 200); background-color:var(--color-sticky); 
+header{position:fixed; top:0; left:0; width:100%; z-index:calc(var(--max-zindex) - 200); background-color:hsl(var(--color-sticky) / 100%); 
 border-bottom:1px solid rgba(255,255,255,0.1); box-shadow:var(--shadow-default);}
 header > span{display:flex; justify-content:space-between;}
 header .sticky-link{padding:0 var(--section-space-small);}
@@ -45,9 +49,24 @@ header .sticky-link{padding:0 var(--section-space-small);}
 .main-container{display:grid; grid-gap:var(--section-space-huge); grid-template-columns:1fr; margin:var(--section-space-big) 0;}
 .column-big-container, .column-small-container{display:grid; grid-template-columns:1fr; grid-template-rows:min-content; 
 grid-row-gap:calc(var(--section-space-big) * 2);}
+.base-container{position:relative;}
+
+.officers-list{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); grid-gap:var(--section-space-medium);}
+.officer-box{border:1px solid;}
+.officer-thumb:before{padding-top:100%;}
+.officer-info{padding:var(--section-space-medium);}
+.officer-info > span{display:grid; grid-gap:var(--section-space-small); width:100%;}
+.officer-name{font-size:18px;}
+.officer-birth, .officer-desc{font-weight:normal;}
+.officer-desc{line-height:140%; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;}
+.officer-more{background-color:transparent; display:flex; align-items:center;}
+.officer-more .svgicon-detail{margin-left:var(--section-space-small);}
+
+.officer-card .officer-info{padding-top:0;}
+.officer-card .officer-thumb:after{content:''; display:block; position:absolute; z-index:2; bottom:0; left:0; width:100%; height:100%;}
 
 .membership-application-box{display:grid; grid-gap:var(--section-space-small);}
-.map-field{padding:var(--section-space-medium); background-color:transparent; width:100%;}
+.map-field{padding:var(--section-space-medium); background-color:transparent; width:100%; border:1px solid;}
 textarea.map-field{min-height:160px;}
 .map-btn{width:100%;}
 
@@ -73,7 +92,7 @@ textarea.map-field{min-height:160px;}
   header .header-share{padding-right:var(--section-space-medium);}
   
   .menu-bottom{--icon-size:16px; position:fixed; bottom:0; left:0; width:100%; z-index:calc(var(--max-zindex) - 200); 
-  display:flex; background-color:var(--color-sticky); border-top:1px solid rgba(255,255,255,0.1);}
+  display:flex; background-color:hsl(var(--color-sticky) / 100%); border-top:1px solid rgba(255,255,255,0.1);}
   .menu-bottom .sticky-link{width:100%; border-left:1px solid;}
   .menu-bottom .sticky-link:first-child{border-left:0;}
   .bottom-icon{font-size:var(--icon-size); text-align:center; font-weight:normal; height:var(--icon-size);}

@@ -19,7 +19,7 @@ var all_scroll = function(){
 var back_to_top = function(){
   "use strict";
   $('#btt').click(function(){
-	$('body,html').animate({scrollTop:0},800);
+	$('body,html').animate({scrollTop:0},0);
     return false;
   });	
 };
@@ -51,7 +51,7 @@ $(document).ready(function(){
   "use strict";
   all_scroll();
   back_to_top();
-  //sticky_maincolumn_right();
+  sticky_maincolumn_right();
 });
 
 
