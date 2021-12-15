@@ -39,6 +39,43 @@
           <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
           <div class="section-title-label">Polling</div>
         </div>
+        
+        <link rel="stylesheet" type="text/css" href="css/polling.css?<?php echo $anticache; ?>"/>
+        
+        <div class="polling-content">
+          <h1 class="polling-title">Ketika anda makan bubur, anda termasuk tim mana?</h1>
+          <ul class="polling-choice">
+            <li class="polling-choice-list">
+              <input class="pcl-real" name="choice" type="radio">
+              <div class="pcl-dummy">
+                <div class="pcl-button"></div>
+                <div class="pcl-name content_center"><span>Bubur tidak diaduk</span></div>
+              </div>
+            </li>
+            <li class="polling-choice-list">
+              <input class="pcl-real" name="choice" type="radio">
+              <div class="pcl-dummy">
+                <div class="pcl-button"></div>
+                <div class="pcl-name content_center"><span>Bubur diaduk</span></div>
+              </div>
+            </li>
+            <li class="polling-choice-list">
+              <input class="pcl-real" name="choice" type="radio">
+              <div class="pcl-dummy">
+                <div class="pcl-button"></div>
+                <div class="pcl-name content_center"><span>Bubur dipendam</span></div>
+              </div>
+            </li>
+            <li class="polling-choice-list">
+              <input class="pcl-real" name="choice" type="radio">
+              <div class="pcl-dummy">
+                <div class="pcl-button"></div>
+                <div class="pcl-name content_center"><span>Bukan ketiganya (Anti Mainstream)</span></div>
+              </div>
+            </li>
+          </ul>
+          <button class="btn">Submit</button>
+        </div>
       </section>
       
       
