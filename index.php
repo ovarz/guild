@@ -1,6 +1,6 @@
 <?php 
   $page='home'; 
-  $kanal='about'; 
+  $kanal='home'; 
   require ('inc/base.php')
 ?>
 <?php require ($_SERVER['GUILD'].'inc/datasample.php')?>

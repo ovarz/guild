@@ -1,17 +1,16 @@
 <?php $anticache = date ('s'.'i'.'H'.'d'.'m'.'Y') ?>
 <head>
-<meta charset="utf-8">
-<meta name="robots" content="noindex, follow">				
+<meta charset="utf-8">			
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="HandheldFriendly" content="true" />
 <meta name="apple-touch-fullscreen" content="yes" />
-<link rel="preconnect" href="https://www.ov4rz.com"> <!-- ganti href preconnect dengan link asset viva (hapus comment ini di production) -->
-<link rel="dns-prefetch" href="https://www.ov4rz.com" /> <!-- ganti href dns-prefetch dengan link asset viva (hapus comment ini di production) -->
+<link rel="preconnect" href="https://www.ov4rz.com"> <!-- ganti href preconnect dengan link asset live (hapus comment ini di production) -->
+<link rel="dns-prefetch" href="https://www.ov4rz.com" /> <!-- ganti href dns-prefetch dengan link asset live (hapus comment ini di production) -->
 <link rel="preconnect" href="https://ajax.googleapis.com">
 <link rel="dns-prefetch" href="https://ajax.googleapis.com" />
-<title>Guild</title>
+<title>LoveBeat</title>
 <link href="img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico" />
 <link rel="preload" href="fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2" as="font" type="font/woff2" crossorigin>

@@ -1,5 +1,5 @@
 <footer class="footer-all content_center">
-  Guild &copy;2022 - All Right Reserved
+  LoveBeat &copy;2022 - All Right Reserved
 </footer>
 
 <div id="btt" class="content_center" title="Return To Top">

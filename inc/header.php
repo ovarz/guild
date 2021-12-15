@@ -1,4 +1,4 @@
-<header <?php if($kanal == 'about') { ?>class="bg-transparent"<?php } ?>>
+<header <?php if($kanal == 'home') { ?>class="bg-transparent"<?php } ?>>
   <span>
     <div class="header-left">
       <a aria-label="About" title="About" class="sticky-link header-logo content_center" href=" ">
