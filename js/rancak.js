@@ -35,7 +35,7 @@ var sticky_maincolumn_right = function(){
         var right_container_height = $('.column-small-container').outerHeight();
 		if(sc >= 0){
           $('.column-small-container').css({
-			'top':'calc(100% - ' + right_container_height + 'px - 15px)' //--section-space-medium
+			'top':'calc(100% - ' + right_container_height + 'px - 24px)' //--section-space-medium
           });
 		}
       });
