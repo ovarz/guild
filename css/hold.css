@@ -11,9 +11,9 @@
 a, .btn, #btt, .svgicon-more{transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s;}
 a, .btn, #btt{cursor:pointer}
 a{color:var(--color-link-primary); fill:var(--color-link-primary);}
-a:focus{opacity:0.6;}
-.btn, a.btn{border-radius:var(--rounded-normal); background-color:var(--color-link-secondary); color:var(--color-link-primary);}
-.btn:hover, a.btn:hover{background-color:var(--color-link-tertiary);}
+a:focus, .header-profile:hover{opacity:0.6;}
+.btn, a.btn{border-radius:calc(2 * var(--rounded-normal)); background-color:transparent; border-color:var(--color-link-secondary); color:var(--color-link-secondary);}
+.btn:hover, a.btn:hover{border-color:var(--color-link-tertiary); color:var(--color-link-tertiary);}
 #btt{position:fixed; bottom:calc(var(--body-padding) + var(--section-space-medium)); right:var(--section-space-medium); 
 z-index:calc(var(--max-zindex) - 4000); font-size:18px; width:36px; height:36px; 
 background-color:var(--color-link-secondary); fill:var(--color-background); border-radius:50%;}
@@ -27,7 +27,7 @@ background-color:var(--color-link-secondary); fill:var(--color-background); bord
 .share-list-wa{fill:#2bb240;}
 .share-list-li{fill:#41c106;}
 .sticky-curr{color:var(--color-link-secondary) !important; fill:var(--color-link-secondary) !important;}
-.section-title{color:var(--color-link-secondary); stroke:var(--color-link-secondary);}
+.section-title{color:var(--color-default); stroke:var(--color-default);}
 .thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:var(--color-link-tertiary);}
 @-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
 @keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}

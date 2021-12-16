@@ -4,12 +4,9 @@
   margin:0 !important; margin-top:calc(var(--body-padding) * -1) !important; transition:height 1s !important; clip-path:inset(0px) !important;}
   .parallax .slotiklan:before{width:320px; height:480px; background-color:#212121;}
   .parallax > div{overflow: hidden; margin:0; position:absolute !important; top:0; left:0; clip:rect(auto auto auto auto); padding:0 !important;}
-  .parallax > div > div{height:100%; position:fixed !important; top:0; margin:0 auto; background:#000;
-  -moz-transform:translateZ(0); -webkit-transform:translateZ(0); -ms-transform:translateZ(0); -o-transform:translateZ(0); transform:translateZ(0);}
-  .parallax > div > div > div{height:100vh; position:absolute !important; left:50%; top:0; border:none;
-  -moz-transform:translateX(-50%); -webkit-transform:translateX(-50%); -ms-transform:translateX(-50%); -o-transform:translateX(-50%); transform:translateX(-50%);
-  display:-webkit-flex; display:-ms-flexbox; display:flex; -webkit-align-content:center; align-content:center; -webkit-align-items:center; 
-  -ms-flex-align:center; align-items:center;}
+  .parallax > div > div{height:100%; position:fixed !important; top:0; margin:0 auto; background:#000; transform:translateZ(0);}
+  .parallax > div > div > div{height:100vh; position:absolute !important; left:50%; top:0; border:none; transform:translateX(-50%);
+  display:flex; align-content:center; align-items:center;}
   .parallax > div > div > div > *{margin:0 auto;}
   
   .cover{position:relative; width:100%; height:100vh;}
@@ -26,8 +23,8 @@
   .cover-button > a{display:block; line-height:normal;}
   .cover-button-label{text-align:center; margin-bottom:var(--section-space-tiny); text-transform:uppercase; font-weight:600;}
   .svgicon-more{animation:see-more 1s linear infinite alternate; position:relative;}
-  @-webkit-keyframes see-more{0%{top:0;}40%{top:10px;}50%{top:5px;}60%{top:10px;}70%{top:5px;}80%{top:10px;}90%{top:10px;}100%{top:0;};}
-  @keyframes see-more{0%{top:0;}40%{top:10px;}50%{top:5px;}60%{top:10px;}70%{top:5px;}80%{top:10px;}90%{top:10px;}100%{top:0;};}
+  @-webkit-keyframes see-more{0%{top:0;}50%{top:8px;}100%{top:0;};}
+  @keyframes see-more{0%{top:0;}50%{top:8px;}100%{top:0;};}
 
   #about{position:absolute; top:calc((var(--body-padding) + var(--section-space-big)) * -1);}
   
