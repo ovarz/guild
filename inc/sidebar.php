@@ -1,35 +1,20 @@
   <div class="column-small">
     <div class="column-small-container">
     
-      <section class="base-container membership-application">
+      <section class="base-container event">
         <div class="section-title">
           <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
-          <div class="section-title-label">Join Us</div>
+          <div class="section-title-label">Next Event</div>
         </div>
-        <div class="membership-application-box">
-          <div class="map-row">
-            <input class="map-field" type="text" placeholder="Character Name">
-          </div>
-          <div class="map-row">
-            <input class="map-field" type="text" placeholder="Email Address">
-          </div>
-          <div class="map-row">
-            <textarea class="map-field" placeholder="Tell us a little about yourself and why you would like to join!"></textarea>
-          </div>
-          <div class="map-row">
-            <button class="map-btn btn">Submit</button>
-          </div>
+        <div class="event-list">
+          <?php $box_type='card'; require ($_SERVER['GUILD'].'module/event-list.php')?>
         </div>
-      </section>
-      
-      
-    
-      <section class="base-container live-chat">
-        <div class="section-title">
-          <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
-          <div class="section-title-label">Live Chat</div>
+        <div class="see-more">
+          <a aria-label="See More" title="See More" class="see-more-link" href="event/">
+            <span>More Event</span>
+            <svg class="svgicon svgicon-see-more" width="13" height="12" viewBox="0 0 13 12"><path d="M5.29602 1.71004L9.62102 6.00004L5.29602 10.29L6.70402 11.71L12.461 6.00004L6.70402 0.290039L5.29602 1.71004Z"/><path d="M1.70402 0.290039L0.296021 1.71004L4.62102 6.00004L0.296021 10.29L1.70402 11.71L7.46102 6.00004L1.70402 0.290039Z"/></svg>
+          </a>
         </div>
-        <iframe title="Live Chat" style="width:100%; height:480px; margin-top:0px;" width="300" height="480" class="lazyload" data-original="https://www.youtube.com/live_chat?v=FaXe7LL5VWU&amp;embed_domain=www.ov4rz.com&dark_theme=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
       </section>
       
       

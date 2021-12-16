@@ -1,6 +1,6 @@
 <style>
   .parallax, .parallax > div,  .parallax > div > div,  .parallax > div > div > div{width:100% !important; height:100vh !important;}
-  .parallax{position:relative !important; z-index:calc(var(--max-zindex) - 4000) !important; padding:0 !important; width:100%; overflow:hidden !important; 
+  .parallax{position:relative !important; z-index:calc(var(--max-zindex) - 5000) !important; padding:0 !important; width:100%; overflow:hidden !important; 
   margin:0 !important; margin-top:calc(var(--body-padding) * -1) !important; transition:height 1s !important; clip-path:inset(0px) !important;}
   .parallax .slotiklan:before{width:320px; height:480px; background-color:#212121;}
   .parallax > div{overflow: hidden; margin:0; position:absolute !important; top:0; left:0; clip:rect(auto auto auto auto); padding:0 !important;}
@@ -71,13 +71,16 @@ $(window).on('load',function(){
   $('.cover').append("<video autoplay=\"\" loop muted><source src=\"img/trailer.mp4\" type=\"video/mp4\"></video>");
 });
 
+$(document).ready(function(){
+  $('.popup-link').click(function(){
+	$('header, menu').removeClass("bg-transparent");	
+  });	
+});
+
 $(window).scroll(function(){
   var scroll_location = $(window).scrollTop();
   if(scroll_location >= 1){
     $('header, menu').removeClass("bg-transparent");	
-  }
-  else{
-    $('header, menu').addClass("bg-transparent");
   }
 });  
 </script>

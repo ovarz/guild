@@ -1,3 +1,7 @@
 <menu class="menu-bottom mobile-only <?php if($kanal == 'home') { ?>bg-transparent<?php } ?>">
-  <?php require ($_SERVER['GUILD'].'inc/menu-main.php')?>
+  <?php $menu_bottom='yes'; require ($_SERVER['GUILD'].'inc/menu-main.php')?>
+</menu>
+
+<menu id="popup-Menu" class="popup-box popup-menu mobile-only">
+  <?php $menu_bottom='no'; require ($_SERVER['GUILD'].'inc/menu-main.php')?>
 </menu>
