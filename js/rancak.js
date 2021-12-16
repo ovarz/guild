@@ -36,6 +36,14 @@ var popup_box = function(){
   });	
 };
 
+var action_button = function(){
+  "use strict";
+  $('.nri-action-button').click(function(){
+	$(this).toggleClass('nri-action-pressed');
+    return false;
+  });	
+};
+
 var sticky_maincolumn_right = function(){
   "use strict";
   var $window = $(window);
@@ -64,6 +72,7 @@ $(document).ready(function(){
   all_scroll();
   back_to_top();
   popup_box();
+  action_button();
   sticky_maincolumn_right();
 });
 
