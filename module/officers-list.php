@@ -1,11 +1,11 @@
-<a aria-label="Officer" title="Officer" class="officer-box officer-<?php echo $box_type; ?>" href="javascript:void(0)">
+<a aria-label="Officer" title="Officer" class="officer-box officer-<?php echo $box_type; ?>" href="officer/detail.php">
   <div class="officer-thumb flex_ori thumb-loading">
     <img alt="img_title" class="lazyload" data-original="img/sample/officer-<?php echo rand(1,6); ?>.jpg">
   </div>
   <div class="officer-info content_center">
     <span>
       <h3 class="officer-name"><?php echo $random_name[array_rand($random_name)]; ?></h3>
-      <div class="officer-birth">August 9th</div>
+      <div class="officer-birth">January 00th</div>
       <div class="officer-desc"><?php echo $random_summary[array_rand($random_summary)]; ?></div>
       <button class="officer-more">
         <span>Detail</span>

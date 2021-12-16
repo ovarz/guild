@@ -45,6 +45,11 @@ header{box-shadow:var(--shadow-default);}
 .officer-more{color:var(--color-link-primary); fill:var(--color-link-primary);}
 .officer-more:hover{color:var(--color-link-tertiary); fill:var(--color-link-tertiary);}
 
+.member-box{border-color:var(--color-border); border-radius:var(--rounded-normal); overflow:hidden;}
+.member-box:hover{border-color:var(--color-link-tertiary);}
+.member-thumb-circle{border-radius:50%; border-color:var(--color-border);}
+.member-birth{color:var(--color-default);}
+
 .live-chat iframe{border-radius:var(--rounded-normal); overflow:hidden;}
 
 .ohc-line:after{background-color:var(--color-default);}
