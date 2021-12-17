@@ -25,7 +25,7 @@
   else window.addEventListener('load', loadDeferredStyles);
 </script>
 
-<script defer src="js/lazysizes.min.js"></script>
-<script defer rancak-hold="js/rancak.js"></script>
+<script defer src="js/lazysizes.min.js?<?php echo $anticache; ?>"></script>
+<script defer rancak-hold="js/rancak.js?<?php echo $anticache; ?>"></script>
 </body>
 </html>

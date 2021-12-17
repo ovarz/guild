@@ -21,6 +21,7 @@ background-color:var(--color-link-secondary); fill:var(--color-background); bord
 .header-logo:hover{opacity:0.5;}
 .flex_ori > img{opacity:0; transition:all 300ms;}
 .flex_ori > img.lazyloaded{opacity:1;}
+.flex_ori > img:hover, .officer-box:hover .flex_ori > img{transform:scale(1.1);}
 .muat-lainnya{margin-top:var(--section-space-medium);}
 .share-list-fb{fill:#4867aa;}
 .share-list-tw{fill:#00acec;}
@@ -31,6 +32,9 @@ background-color:var(--color-link-secondary); fill:var(--color-background); bord
 .thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:var(--color-link-tertiary);}
 @-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
 @keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
+.user-action-button{color:var(--color-link-primary); fill:var(--color-link-primary);}
+.user-action-button:hover{color:var(--color-link-tertiary); fill:var(--color-link-tertiary);}
+.user-action-pressed{color:var(--color-link-secondary); fill:var(--color-link-secondary);}
 
 header{box-shadow:var(--shadow-default);}
 .header-profile-avatar{border-radius:50%; border-color:var(--color-link-primary);}
@@ -39,9 +43,6 @@ header{box-shadow:var(--shadow-default);}
 
 .news-row{border-color:var(--color-border);}
 .nrt-box{border-radius:var(--rounded-normal); overflow:hidden;}
-.nri-action-button{color:var(--color-link-primary); fill:var(--color-link-primary);}
-.nri-action-button:hover{color:var(--color-link-tertiary); fill:var(--color-link-tertiary);}
-.nri-action-pressed{color:var(--color-link-secondary); fill:var(--color-link-secondary);}
 
 .event-row{border-color:var(--color-border);}
 .event-row > div:not(.event-title){color:var(--color-default);}
@@ -69,6 +70,8 @@ header{box-shadow:var(--shadow-default);}
 .ohc-destination{color:var(--color-link-tertiary);}
 .ohc-destination .ohc-circle{border-color:var(--color-link-tertiary);}
 .ohc-destination .ohc-arrow{display:none;}
+
+.gallery-thumb{border-radius:var(--rounded-normal); overflow:hidden;}
 
 footer{padding:var(--section-space-medium); border-top:1px dashed var(--color-border);}
 

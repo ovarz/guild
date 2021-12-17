@@ -119,8 +119,14 @@
               <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
               <div class="section-title-label">Gallery</div>
             </div>
-            
-            
+            <div class="gallery-list">
+              <?php $media_type='video'; require ($_SERVER['GUILD'].'module/gallery-list.php')?>
+              <?php for ($i=1; $i <= 3 ; $i++) { ?>
+                <?php $media_type='video'; require ($_SERVER['GUILD'].'module/gallery-list.php')?>
+                <?php $media_type='photo'; require ($_SERVER['GUILD'].'module/gallery-list.php')?>
+                <?php $media_type='video'; require ($_SERVER['GUILD'].'module/gallery-list.php')?>
+              <?php } ?>
+            </div>
           </section>
           
         </div>

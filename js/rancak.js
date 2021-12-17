@@ -38,8 +38,8 @@ var popup_box = function(){
 
 var action_button = function(){
   "use strict";
-  $('.nri-action-button').click(function(){
-	$(this).toggleClass('nri-action-pressed');
+  $('.user-action-button').click(function(){
+	$(this).toggleClass('user-action-pressed');
     return false;
   });	
 };
