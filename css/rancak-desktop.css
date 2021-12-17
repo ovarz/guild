@@ -10,6 +10,8 @@ header .header-share{padding-right:0;}
 .main-container-split{grid-template-columns:1fr 300px;}
 .column-small-container{position:-webkit-sticky; position:sticky; top:calc(var(--body-padding) + var(--section-space-medium)); padding-bottom:0.1px;}
 
+.about-list{grid-template-columns:1fr 1fr;}
+
 .news-row{grid-template-columns:250px 1fr;}
 .nrt-box:before{padding-top:56.25%;}
 .nri-title{font-size:18px;}
