@@ -1,7 +1,7 @@
 <article class="news-row">
   <div class="news-row-thumb">
     <a aria-label="News" title="News" class="nrt-box flex_ori thumb-loading" href="news/detail.php">
-      <img alt="img_title" class="lazyload" data-original="img/sample/member-<?php echo rand(1,20); ?>.jpg">
+      <img alt="img_title" class="lazyload" data-original="img/sample/sample-<?php echo rand(1,10); ?>.jpg">
     </a>
   </div>
   <div class="news-row-info">
