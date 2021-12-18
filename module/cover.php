@@ -70,14 +70,14 @@ $(window).on('load',function(){
 
 $(document).ready(function(){
   $('.popup-link').click(function(){
-	$('header, menu').removeClass("bg-transparent");	
+	$('header, menu, nav').removeClass("bg-transparent");	
   });	
 });
 
 $(window).scroll(function(){
   var scroll_location = $(window).scrollTop();
   if(scroll_location >= 1){
-    $('header, menu').removeClass("bg-transparent");	
+    $('header, menu, nav').removeClass("bg-transparent");	
   }
 });  
 </script>
