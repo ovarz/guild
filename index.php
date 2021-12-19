@@ -1,6 +1,6 @@
 <?php 
   $page='home'; 
-  $kanal='home'; 
+  $channel='home'; 
   $login='no'; 
   require ('inc/base.php')
 ?>

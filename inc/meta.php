@@ -16,6 +16,10 @@
 <link rel="preload" href="fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/montserrat/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="css/rancak.css?<?php echo $anticache; ?>" as="style">
+<?php if($page == 'detail') { ?>
+  <link rel="preload" href="css/detail.css?<?php echo $anticache; ?>" as="style">
+  <link rel="preload" href="img/sample/sample-1.webp" as="image"> <!-- link image detail article (hapus comment ini di production) -->
+<?php } ?>
 <link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
 <style>
 @font-face{font-family:Montserrat;font-style:normal;font-weight:400;font-display:swap;src:local('Montserrat Regular'),local('Montserrat-Regular'),url(fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Montserrat;font-style:normal;font-weight:600;font-display:swap;src:local('Montserrat SemiBold'),local('Montserrat-SemiBold'),url(fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Montserrat;font-style:normal;font-weight:800;font-display:swap;src:local('Montserrat ExtraBold'),local('Montserrat-ExtraBold'),url(fonts/montserrat/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
@@ -32,5 +36,8 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 </script>
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
 <link rel="stylesheet" type="text/css" href="css/rancak-desktop.css?<?php echo $anticache; ?>" media="(min-width:1024px)">
+<?php if($page == 'detail') { ?>
+  <link rel="stylesheet" type="text/css" href="css/detail.css?<?php echo $anticache; ?>"/>
+<?php } ?>
 </head>
 <body>

@@ -1,4 +1,4 @@
-<nav class="menu-bottom mobile-only <?php if($kanal == 'home') { ?>bg-transparent<?php } ?>">
+<nav class="menu-bottom mobile-only <?php if($channel == 'home') { ?>bg-transparent<?php } ?>">
   <?php $menu_bottom='yes'; require ($_SERVER['GUILD'].'inc/menu-main.php')?>
 </nav>
 
