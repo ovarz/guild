@@ -36,8 +36,15 @@
               <li>
                 <div class="pagelist-row">Event page</div>  
                 <ul>
-                  <li><a class="pagelist-row" href="news/">Event list</a></li>
-                  <li><a class="pagelist-row" href="news/detail.php">Event detail</a></li>
+                  <li><a class="pagelist-row" href="event/">Event list</a></li>
+                  <li><a class="pagelist-row" href="event/detail.php">Event detail</a></li>
+                </ul>
+              </li>
+              <li>
+                <div class="pagelist-row">Guide page</div>  
+                <ul>
+                  <li><a class="pagelist-row" href="guide/">Guide list</a></li>
+                  <li><a class="pagelist-row" href="guide/detail.php">Guide detail</a></li>
                 </ul>
               </li>
             </ul>
