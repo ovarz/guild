@@ -4,7 +4,7 @@
 .dti-cate{padding-right:var(--section-space-small); margin-right:var(--section-space-small); border-right:1px solid; text-transform:capitalize; font-weight:normal;}
 .detail-top-image{position:relative; margin-top:var(--section-space-medium);}
 .detail-top-image:before{content:''; display:block; padding-top:56.25%;}
-.detail-top-image img{position:absolute; top:0; left:0; width:100%; height:100%;}
+.detail-top-image img, .detail-top-image iframe{position:absolute; top:0; left:0; width:100%; height:100%;}
 
 .detail-content{margin-top:calc(var(--section-space-big) * -1);}
 .detail-content main{font-size:16px; line-height:150%; display:grid; grid-row-gap:var(--section-space-medium); 

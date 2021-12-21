@@ -53,7 +53,7 @@
           <section class="base-container news">
             <div class="section-title">
               <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
-              <h1 class="section-title-label">Related Article</h1>
+              <h1 class="section-title-label">Related <?php echo $channel; ?></h1>
             </div>
             <div class="news-list">
               <?php for ($i=1; $i <= 5 ; $i++) { ?>
