@@ -1,6 +1,6 @@
 <?php 
   $page='detail'; 
-  $channel='event'; 
+  $channel='news'; 
   $login='no'; 
   require ('../inc/base.php')
 ?>
