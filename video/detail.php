@@ -16,7 +16,7 @@
         
           <section class="base-container detail-top">
             <div class="detail-top-info">
-              <h1 class="dti-title">FINAL FANTASY XIV: Endwalker Photo!</h1>
+              <h1 class="dti-title">FINAL FANTASY XIV: Endwalker Video!</h1>
               <div class="dti-catedate">
                 <a aria-label="News" title="News" class="dti-cate" href="<?php echo $channel; ?>"><?php echo $channel; ?></a>
                 <div class="dti-date">Sunday, 00 January 0000</div>
