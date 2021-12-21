@@ -1,6 +1,7 @@
   <div class="column-small">
     <div class="column-small-container">
-    
+      
+      <?php if($channel != 'event') { ?>
       <section class="base-container event">
         <div class="section-title">
           <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
@@ -16,6 +17,7 @@
           </a>
         </div>
       </section>
+      <?php } ?>
       
       
     

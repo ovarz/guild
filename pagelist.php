@@ -33,6 +33,13 @@
                   <li><a class="pagelist-row" href="news/detail.php">News detail</a></li>
                 </ul>
               </li>
+              <li>
+                <div class="pagelist-row">Event page</div>  
+                <ul>
+                  <li><a class="pagelist-row" href="news/">Event list</a></li>
+                  <li><a class="pagelist-row" href="news/detail.php">Event detail</a></li>
+                </ul>
+              </li>
             </ul>
           </section>
           

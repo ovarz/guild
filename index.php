@@ -67,7 +67,7 @@
             </div>
             <div class="news-list">
               <?php for ($i=1; $i <= 5 ; $i++) { ?>
-                <?php require ($_SERVER['GUILD'].'module/news-list.php')?>
+                <?php $channel_link='news'; require ($_SERVER['GUILD'].'module/news-list.php')?>
               <?php } ?>
             </div>
             <div class="see-more">

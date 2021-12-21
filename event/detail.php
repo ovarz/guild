@@ -39,11 +39,6 @@
               <p><?php echo $random_summary[array_rand($random_summary)]; ?></p>
               <p><?php echo $random_summary[array_rand($random_summary)]; ?></p>
               <p><?php echo $random_summary[array_rand($random_summary)]; ?></p>
-              <p><?php echo $random_summary[array_rand($random_summary)]; ?></p>
-              <div class="detail-content-image flex_ori thumb-loading">
-                <img alt="img_title" class="lazyload" data-original="img/sample/sample-<?php echo rand(1,10); ?>.jpg">
-              </div>
-              <p><?php echo $random_summary[array_rand($random_summary)]; ?></p>
             </main>
             <?php require ($_SERVER['GUILD'].'module/tag-list.php')?>
           </section>
@@ -53,11 +48,11 @@
           <section class="base-container news">
             <div class="section-title">
               <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
-              <h1 class="section-title-label">Related Article</h1>
+              <h1 class="section-title-label">Next Event</h1>
             </div>
             <div class="news-list">
               <?php for ($i=1; $i <= 5 ; $i++) { ?>
-                <?php $channel_link='news'; require ($_SERVER['GUILD'].'module/news-list.php')?>
+                <?php $channel_link='event'; require ($_SERVER['GUILD'].'module/news-list.php')?>
               <?php } ?>
             </div>
           </section>

@@ -1,6 +1,6 @@
 <?php 
   $page='channel'; 
-  $channel='news'; 
+  $channel='event'; 
   $login='no'; 
   require ('../inc/base.php')
 ?>
@@ -23,7 +23,7 @@
             </div>
             <div class="news-list">
               <?php for ($i=1; $i <= 10 ; $i++) { ?>
-                <?php $channel_link='news'; require ($_SERVER['GUILD'].'module/news-list.php')?>
+                <?php $channel_link='event'; require ($_SERVER['GUILD'].'module/news-list.php')?>
               <?php } ?>
             </div>
             <?php require ($_SERVER['GUILD'].'module/now-loading.php')?>
