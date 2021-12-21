@@ -47,6 +47,20 @@
                   <li><a class="pagelist-row" href="guide/detail.php">Guide detail</a></li>
                 </ul>
               </li>
+              <li>
+                <div class="pagelist-row">Photo page</div>  
+                <ul>
+                  <li><a class="pagelist-row" href="photo/">Photo list</a></li>
+                  <li><a class="pagelist-row" href="photo/detail.php">Photo detail</a></li>
+                </ul>
+              </li>
+              <li>
+                <div class="pagelist-row">Video page</div>  
+                <ul>
+                  <li><a class="pagelist-row" href="video/">Video list</a></li>
+                  <li><a class="pagelist-row" href="video/detail.php">Video detail</a></li>
+                </ul>
+              </li>
             </ul>
           </section>
           
