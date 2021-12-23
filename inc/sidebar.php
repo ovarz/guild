@@ -61,7 +61,31 @@
               </div>
             </li>
           </ul>
-          <button class="btn">Submit</button>
+          <button class="polling-choice-button btn">Submit</button>
+          
+          <ul class="polling-result" style="display:none;">
+            <li>
+              <div class="polling-result-label">Not Stirred</div>
+              <div class="polling-result-percent">00%</div>
+              <div class="polling-result-bar"><span style="width:<?php echo rand(10,99); ?>%"></span></div>
+            </li>
+            <li>
+              <div class="polling-result-label">Stirred</div>
+              <div class="polling-result-percent">00%</div>
+              <div class="polling-result-bar"><span style="width:<?php echo rand(10,99); ?>%"></span></div>
+            </li>
+            <li>
+              <div class="polling-result-label">Buried</div>
+              <div class="polling-result-percent">00%</div>
+              <div class="polling-result-bar"><span style="width:<?php echo rand(10,99); ?>%"></span></div>
+            </li>
+            <li>
+              <div class="polling-result-label">None of Above (Anti Mainstream)</div>
+              <div class="polling-result-percent">00%</div>
+              <div class="polling-result-bar"><span style="width:<?php echo rand(10,99); ?>%"></span></div>
+            </li>
+          </ul>
+          <div class="polling-note" style="display:none;">Thank you for participating</div>
         </div>
       </section>
       

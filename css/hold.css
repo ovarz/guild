@@ -97,6 +97,12 @@ background:linear-gradient(to bottom, var(--color-link-secondary) 0%, var(--colo
 .dpt-inside{border-color:var(--color-background); background-color:var(--color-background);}
 .dpi-name{color:var(--color-link-primary);}
 
+.polling-result-bar, .polling-result-bar > span{border-radius:var(--rounded-normal);}
+.polling-result-bar{background-color:var(--color-border);}
+.polling-result-bar > span{background-color:var(--color-link-secondary);
+background:linear-gradient(to right, var(--color-link-secondary) 0%, var(--color-link-tertiary) 100%);}
+.polling-note{color:var(--color-link-primary);}
+
 
 @media screen and (min-width:0px) and (max-width:1023px){
   .menu-bottom{box-shadow:var(--shadow-default);}

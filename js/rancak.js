@@ -44,6 +44,15 @@ var action_button = function(){
   });	
 };
 
+var voting_result = function(){
+  "use strict";
+  $('.polling-choice-button').click(function(){
+	$('.polling-choice, .polling-choice-button').hide();
+	$('.polling-result, .polling-note').fadeIn('slow');
+    return false;
+  });	
+};
+
 var sticky_maincolumn_right = function(){
   "use strict";
   var $window = $(window);
@@ -73,6 +82,7 @@ $(document).ready(function(){
   back_to_top();
   popup_box();
   action_button();
+  voting_result();
   sticky_maincolumn_right();
 });
 
