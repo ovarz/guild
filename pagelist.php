@@ -41,10 +41,17 @@
                 </ul>
               </li>
               <li>
-                <div class="pagelist-row">Guide page</div>  
+                <div class="pagelist-row">Officer page</div>  
                 <ul>
-                  <li><a class="pagelist-row" href="guide/">Guide list</a></li>
-                  <li><a class="pagelist-row" href="guide/detail.php">Guide detail</a></li>
+                  <li><a class="pagelist-row" href="officer/">Officer list</a></li>
+                  <li><a class="pagelist-row" href="officer/detail.php">Officer detail</a></li>
+                </ul>
+              </li>
+              <li>
+                <div class="pagelist-row">Member page</div>  
+                <ul>
+                  <li><a class="pagelist-row" href="member/">Member list</a></li>
+                  <li><a class="pagelist-row" href="member/detail.php">Member detail</a></li>
                 </ul>
               </li>
               <li>
@@ -59,6 +66,13 @@
                 <ul>
                   <li><a class="pagelist-row" href="video/">Video list</a></li>
                   <li><a class="pagelist-row" href="video/detail.php">Video detail</a></li>
+                </ul>
+              </li>
+              <li>
+                <div class="pagelist-row">Guide page</div>  
+                <ul>
+                  <li><a class="pagelist-row" href="guide/">Guide list</a></li>
+                  <li><a class="pagelist-row" href="guide/detail.php">Guide detail</a></li>
                 </ul>
               </li>
             </ul>
