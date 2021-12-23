@@ -19,6 +19,12 @@ word-wrap:break-word; word-break:break-word; hyphens:auto;}
 .detail-content main > ul > li, .detail-content main > ol > li{padding:2px 0;}
 .detail-content-image:before{padding-top:56.25%;}
 
+.detail-profile-thumb{margin-bottom:var(--section-space-medium);}
+.dpt-circle{padding:var(--section-space-small);}
+.dpt-inside{width:160px; border:var(--section-space-small) solid;}
+.dpt-inside:before{padding-top:100%;}
+.dpi-name, .dpi-date{text-align:center;}
+.dpi-name{font-weight:bold; font-size:24px;}
 
 @media screen and (min-width:0px) and (max-width:1023px){
   .detail-top-info{margin:0 var(--section-space-medium);}
