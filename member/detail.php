@@ -39,14 +39,14 @@
         
         
         
-          <section class="base-container officers">
+          <section class="base-container member">
             <div class="section-title">
               <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
               <div class="section-title-label">Other <?php echo $channel; ?></div>
             </div>
-            <div class="officers-list">
-              <?php for ($i=1; $i <= 4 ; $i++) { ?>
-                <?php $box_type='card'; require ($_SERVER['GUILD'].'module/officers-list.php')?>
+            <div class="member-list">
+              <?php for ($i=1; $i <= 30 ; $i++) { ?>
+                <?php require ($_SERVER['GUILD'].'module/member-list.php')?>
               <?php } ?>
             </div>
           </section>
