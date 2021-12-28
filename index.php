@@ -114,6 +114,12 @@
         
         
         
+          <section class="base-container teaser thumb-loading">
+            <iframe class="lazyload" width="560" height="315" data-original="https://www.youtube.com/embed/z3vHAJ2evcA?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+          </section>
+        
+        
+        
           <section class="base-container gallery">
             <div class="section-title">
               <?php require ($_SERVER['GUILD'].'module/section-title-icon.php')?>
