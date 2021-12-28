@@ -46,7 +46,7 @@ header{box-shadow:var(--shadow-default);}
 header .header-logo:hover{fill:var(--color-link-secondary); opacity:1;}
 .header-profile-avatar{border-radius:50%; border-color:var(--color-link-primary);}
 
-.about-list{fill:var(--color-link-primary); color:var(--color-link-primary);}
+.about-list{fill:var(--color-link-tertiary); color:var(--color-link-primary);}
 
 .news-row{border-color:var(--color-border);}
 .nrt-box{border-radius:var(--rounded-normal); overflow:hidden;}
