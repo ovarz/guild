@@ -51,7 +51,7 @@
                 <div class="pagelist-row">Member page</div>  
                 <ul>
                   <li><a class="pagelist-row" href="member/">Member list</a></li>
-                  <li><a class="pagelist-row" href="member/detail.php">Member detail</a></li>
+                  <li><a class="pagelist-row" href="officer/detail.php">Member detail</a></li>
                 </ul>
               </li>
               <li>
