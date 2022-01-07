@@ -76,6 +76,7 @@ grid-row-gap:calc(var(--section-space-big) * 2);}
 .officers-list{display:grid; grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); grid-gap:var(--section-space-small);}
 .officer-box{border:1px solid;}
 .officer-thumb:before{padding-top:100%;}
+.officer-thumb img{object-position:center top;}
 .officer-info{padding:var(--section-space-medium);}
 .officer-info > span{display:grid; grid-gap:var(--section-space-small); width:100%;}
 .officer-name{font-size:18px; line-height:140%;}
@@ -90,6 +91,7 @@ grid-row-gap:calc(var(--section-space-big) * 2);}
 .member-box{border:2px solid; padding:var(--section-space-medium);}
 .member-thumb-circle{width:96px; border:4px solid;}
 .member-thumb-circle:before{padding-top:100%;}
+.member-thumb-circle img{object-position:center top;}
 .member-info > span{display:grid; grid-gap:var(--section-space-tiny); margin-top:var(--section-space-small); width:100%;}
 .member-name, .member-birth{text-align:center;}
 .member-name{line-height:140%;}
