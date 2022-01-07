@@ -90,7 +90,7 @@ footer{padding:var(--section-space-medium); border-top:1px solid var(--color-bor
 .popup-open{color:var(--color-link-tertiary); fill:var(--color-link-tertiary);}
 .popup-box{position:fixed; z-index:calc(var(--max-zindex) - 2000);}
 
-.dct-frame{border-radius:var(--rounded-normal); overflow:hidden;}
+.dct-frame{border-radius:calc(var(--rounded-normal) * 2); overflow:hidden;}
 .dci-title{color:var(--color-link-tertiary);}
 .dci-name, .dci-level, .dci-more-data{color:var(--color-link-primary);}
 .dci-other{border-color:var(--color-border);}
