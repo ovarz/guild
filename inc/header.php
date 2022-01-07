@@ -9,7 +9,6 @@
       <menu class="desktop-only">
         <?php $menu_bottom='no'; require ($_SERVER['GUILD'].'inc/menu-main.php')?>
       </menu>
-      
       <a aria-label="Login" title="Login" 
       <?php if($login == 'no') { ?>
         href="profile/login.php"
