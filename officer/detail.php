@@ -24,8 +24,11 @@
               <h2 class="dci-title">The Heart's Beat</h2>
               <h1 class="dci-name">Tifanna Lockheart</h1>
               <h3 class="dci-world">Diabolos (Crystal)</h3>
-              <div class="dci-date">00 January 0000 - Level 90</div>
+              <div class="dci-date">00 January 0000</div>
               <div class="dci-level">
+                <div class="dci-level-number content_center">
+                  <span>Level&nbsp;90</span>
+                </div>
                 <div class="dci-level-icon flex_ori content_center">
                   <img alt="img_title" class="lazyload" data-original="https://img.finalfantasyxiv.com/lds/h/7/WdFey0jyHn9Nnt1Qnm-J3yTg5s.png">
                 </div>

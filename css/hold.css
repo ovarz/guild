@@ -92,7 +92,7 @@ footer{padding:var(--section-space-medium); border-top:1px solid var(--color-bor
 
 .dct-frame{border-radius:var(--rounded-normal); overflow:hidden;}
 .dci-title{color:var(--color-link-tertiary);}
-.dci-name, .dci-world, .dci-date, .dci-more-data{color:var(--color-link-primary);}
+.dci-name, .dci-level, .dci-more-data{color:var(--color-link-primary);}
 .dci-other{border-color:var(--color-border);}
 
 .polling-result-bar, .polling-result-bar > span{border-radius:var(--rounded-normal);}

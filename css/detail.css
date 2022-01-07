@@ -23,8 +23,11 @@ word-wrap:break-word; word-break:break-word; hyphens:auto;}
 .dct-frame{max-width:var(--max-thumb-size); margin:0 auto;}
 .dct-frame:before{padding-top:136.4%;}
 .detail-character-info{display:grid; grid-auto-rows:min-content; grid-gap:var(--section-space-small);}
-.dci-level{--level-icon-height:24px; display:grid; grid-template-columns:var(--level-icon-height) 1fr; grid-gap:var(--section-space-small);}
-.dci-level > div{height:24px;}
+.dci-level{--level-icon-height:24px; display:flex; gap:var(--section-space-tiny);}
+.dci-level > div{height:var(--level-icon-height);}
+.dci-level-number{font-size:18px; margin-right:var(--section-space-small);}
+.dci-level-icon{width:var(--level-icon-height);}
+.dci-level-label{width:100%;}
 .dci-level img{object-fit:contain; object-position:center left;}
 .dci-name{font-weight:bold; font-size:24px;}
 .dci-other{display:grid; grid-gap:var(--section-space-medium); border-top:1px dashed;
