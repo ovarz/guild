@@ -55,15 +55,15 @@
                 </ul>
                 <ul class="dci-more">
                   <li class="dci-more-label">Minions</li>
-                  <li class="dci-more-data">00/0000 [00%]</li>
+                  <li class="dci-more-data">00 / 0000 [00%]</li>
                 </ul>
                 <ul class="dci-more">
                   <li class="dci-more-label">Mounts</li>
-                  <li class="dci-more-data">00/0000 [00%]</li>
+                  <li class="dci-more-data">00 / 0000 [00%]</li>
                 </ul>
                 <ul class="dci-more">
                   <li class="dci-more-label">Achievement</li>
-                  <li class="dci-more-data">00/0000 [00%]</li>
+                  <li class="dci-more-data">00 / 0000 [00%]</li>
                 </ul>
               </div>
             </div>
