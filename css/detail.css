@@ -26,6 +26,7 @@ word-wrap:break-word; word-break:break-word; hyphens:auto;}
 .dci-level{--level-icon-height:24px; display:flex; gap:var(--section-space-tiny);}
 .dci-level > div{height:var(--level-icon-height);}
 .dci-level-number{font-size:18px; margin-right:var(--section-space-small);}
+.dci-level-number > span{position:relative; top:1px;}
 .dci-level-icon{width:var(--level-icon-height);}
 .dci-level-label{width:100%;}
 .dci-level img{object-fit:contain; object-position:center left;}
