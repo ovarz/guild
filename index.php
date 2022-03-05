@@ -12,7 +12,7 @@
 
 <div class="site-container">
   <span>
-    <div class="main-container main-container-split">
+    <div class="main-container">
       <div class="column-big">
         <div class="column-big-container">
         
@@ -126,8 +126,7 @@
               <div class="section-title-label">Gallery</div>
             </div>
             <div class="gallery-list">
-              <?php $media_type='video'; require ($_SERVER['GUILD'].'module/gallery-list.php')?>
-              <?php for ($i=1; $i <= 3 ; $i++) { ?>
+              <?php for ($i=1; $i <= 4 ; $i++) { ?>
                 <?php $media_type='video'; require ($_SERVER['GUILD'].'module/gallery-list.php')?>
                 <?php $media_type='photo'; require ($_SERVER['GUILD'].'module/gallery-list.php')?>
                 <?php $media_type='video'; require ($_SERVER['GUILD'].'module/gallery-list.php')?>
@@ -137,8 +136,6 @@
           
         </div>
       </div>
-      
-      <?php require ($_SERVER['GUILD'].'inc/sidebar.php')?>
     </div>
   </span>
 </div>

@@ -10,7 +10,7 @@
 
 <div class="site-container">
   <span>
-    <div class="main-container main-container-split">
+    <div class="main-container">
       <div class="column-big">
         <div class="column-big-container">
         
@@ -94,8 +94,6 @@
           
         </div>
       </div>
-      
-      <?php require ($_SERVER['GUILD'].'inc/sidebar.php')?>
     </div>
   </span>
 </div>
